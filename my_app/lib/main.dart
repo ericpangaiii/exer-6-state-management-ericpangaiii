@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/screen/MyCart.dart';
 import 'package:my_app/screen/MyCatalog.dart';
+import 'package:my_app/screen/Checkout.dart';
 import 'package:provider/provider.dart';
 import 'provider/shoppingcart_provider.dart';
 
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
         // Defines the app's navigation routes.
         "/cart": (context) => const MyCart(), // Route to the MyCart screen.
         "/products": (context) => const MyCatalog(), // Route to the MyCatalog screen.
+        "/checkout": (context) => Checkout(), // Route to the Checkout screen.
       },
       home: const MyCatalog(), // Sets the default home screen of the app.
     );
