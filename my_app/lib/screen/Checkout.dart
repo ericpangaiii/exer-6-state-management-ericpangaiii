@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../model/Item.dart';
 import '../provider/shoppingcart_provider.dart';
-import '../screen/MyCatalog.dart';
 
 // Checkout is a StatelessWidget that displays the checkout screen.
 class Checkout extends StatelessWidget {
